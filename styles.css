@@ -10,8 +10,9 @@
 body {
     font-family: 'Roboto', sans-serif;
     line-height: 1.6;
-    background-color: #f4f4f4;
-    color: #333;
+    background: url('https://images.unsplash.com/photo-1588361860112-005a9442c7b1') no-repeat center center fixed;
+    background-size: cover;
+    color: #fff; /* Change text color to white for better readability on dark background */
 }
 
 /* Header styles */
@@ -55,11 +56,11 @@ nav ul li a {
     color: #fff;
     text-decoration: none;
     font-weight: bold;
-    transition: color 0.3s ease; /* added transition effect */
+    transition: color 0.3s ease;
 }
 
 nav ul li a:hover {
-    color: #ccc; /* added hover effect */
+    color: #ccc;
 }
 
 /* Main content styles */
@@ -74,14 +75,13 @@ main {
 }
 
 .bg-image {
-    background: url('https://images.unsplash.com/photo-1504674900247-0877df9cc836') no-repeat center center/cover;
-    color: #fff;
+    background: rgba(0, 0, 0, 0.5);
     padding: 4rem 0;
     text-align: center;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh; /* added full viewport height */
+    height: 100vh;
 }
 
 .content {
@@ -91,10 +91,11 @@ main {
 }
 
 .bg-light {
-    background-color: #f9f9f9;
+    background-color: rgba(255, 255, 255, 0.8);
     padding: 2rem;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    color: #333; /* Ensure text is readable on light background */
 }
 
 .menu-items {
@@ -111,6 +112,7 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
+    color: #333; /* Ensure text is readable on white background */
 }
 
 /* Footer styles */
