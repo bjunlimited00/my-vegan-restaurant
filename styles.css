@@ -63,7 +63,7 @@ main {
 }
 
 .bg-image {
-    background: url('https://prateekjain624.github.io/vegan-restaurant-project/img/bg.jpg') no-repeat center center/cover;
+    background: url('background.jpg') no-repeat center center/cover;
     color: #fff;
     padding: 4rem 0;
     text-align: center;
